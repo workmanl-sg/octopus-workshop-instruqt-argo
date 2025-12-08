@@ -324,7 +324,6 @@ step "flyway-database-migrations-dryrun" {
             Flyway.Authentication.Method = "usernamepassword"
             Flyway.Command.BaseLineOnMigrate = "false"
             Flyway.Command.FailOnDrift = "true"
-            Flyway.Command.Locations = "#{parameter.package.path}"
             Flyway.Command.OutOfOrder = "false"
             Flyway.Command.SkipExecutingMigrations = "false"
             Flyway.Command.Target = "latest"
