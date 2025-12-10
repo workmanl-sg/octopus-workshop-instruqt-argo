@@ -3,7 +3,7 @@ kind: Application
 metadata:
   name: sample-frontend-production
   annotations:
-    argo.octopus.com/project: "Sample Frontend"
+    argo.octopus.com/project: "sample-frontend"
     argo.octopus.com/environment: "production"
     argo.octopus.com/image-replace-paths: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
 spec:
